@@ -27,18 +27,27 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Personajes"/>
+                                <connections>
+                                    <action selector="clickCharactersButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="xES-l3-4fu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cw-pq-dPc">
                                 <rect key="frame" x="152" y="437.5" width="110.5" height="35"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Locaciones"/>
+                                <connections>
+                                    <action selector="clickLocationsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTc-iE-5zi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4x8-Sv-iED">
                                 <rect key="frame" x="158.5" y="492.5" width="97.5" height="35"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Episodios"/>
+                                <connections>
+                                    <action selector="clickEpisodesButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jii-RL-a1B"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
