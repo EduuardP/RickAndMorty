@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="RickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RICK AND MORTY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t34-Zy-Pes">
+                                <rect key="frame" x="137" y="157" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHT-st-yoj">
+                                <rect key="frame" x="153.5" y="382.5" width="107.5" height="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Personajes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cw-pq-dPc">
+                                <rect key="frame" x="152" y="437.5" width="110.5" height="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Locaciones"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4x8-Sv-iED">
+                                <rect key="frame" x="158.5" y="492.5" width="97.5" height="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Episodios"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4x8-Sv-iED" firstAttribute="top" secondItem="5Cw-pq-dPc" secondAttribute="bottom" constant="20" id="4Yp-oe-pqR"/>
+                            <constraint firstItem="t34-Zy-Pes" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OG6-f3-oeN"/>
+                            <constraint firstItem="t34-Zy-Pes" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="109" id="PiT-rt-FTo"/>
+                            <constraint firstItem="NHT-st-yoj" firstAttribute="centerX" secondItem="5Cw-pq-dPc" secondAttribute="centerX" id="Qs0-Ka-C6Q"/>
+                            <constraint firstItem="5Cw-pq-dPc" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Ydb-Zj-Rdc"/>
+                            <constraint firstItem="5Cw-pq-dPc" firstAttribute="top" secondItem="NHT-st-yoj" secondAttribute="bottom" constant="20" id="dNO-M9-Xfs"/>
+                            <constraint firstItem="4x8-Sv-iED" firstAttribute="centerX" secondItem="5Cw-pq-dPc" secondAttribute="centerX" id="qha-bg-7Mj"/>
+                            <constraint firstItem="5Cw-pq-dPc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yVh-X4-NxI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
