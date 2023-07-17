@@ -7,24 +7,24 @@
 
 import Alamofire
 
-protocol MainModelProtocol: AnyObject {
+protocol MenuModelProtocol: AnyObject {
     func loadApi()
-    var presenter: MainPresenterProtocol? { get set }
+    var presenter: MenuPresenterProtocol? { get set }
 }
 
 
 
-class MainModel: MainModelProtocol {
+class MenuModel: MenuModelProtocol {
     
     private var alamofireService: AlamofireService
-    var presenter: MainPresenterProtocol?
+    var presenter: MenuPresenterProtocol?
     
     init(alamofireService: AlamofireService = AlamofireService()) {
         self.alamofireService = alamofireService
     }
     
     func loadApi() {
-        self.alamofireService.get(url: Constanst.mainUrl) { (response: AFResult<Main>) in
+        self.alamofireService.get(url: Constanst.Url.menuUrl) { (response: AFResult<Menu>) in
             switch response {
             case .success(let result):
                 self.presenter?.result(result: result)
@@ -32,6 +32,5 @@ class MainModel: MainModelProtocol {
                 print(error.localizedDescription)
             }
         }
-        
     }
 }

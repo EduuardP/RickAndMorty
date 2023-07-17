@@ -6,5 +6,5 @@
 //
 
 struct Menu: Codable {
-    let characters, locations, episodes: String
+    let characters, locations, episodes: String?
 }

@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE4784E42A53C90C00E051FD /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784E32A53C90C00E051FD /* Main.swift */; };
-		BE4784E72A53C94B00E051FD /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784E62A53C94B00E051FD /* MainPresenter.swift */; };
+		BE1D13CB2A64D4CF00BAF65F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13CA2A64D4CF00BAF65F /* Character.swift */; };
+		BE1D13CD2A64D7E000BAF65F /* CharacterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1D13CC2A64D7E000BAF65F /* CharacterViewController.storyboard */; };
+		BE1D13D62A64D98100BAF65F /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1D13D52A64D98100BAF65F /* CharacterCell.xib */; };
+		BE1D13D82A64DBDC00BAF65F /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13D72A64DBDC00BAF65F /* CharacterCell.swift */; };
+		BE1D13DB2A64E71B00BAF65F /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13DA2A64E71B00BAF65F /* ViewControllerProtocol.swift */; };
+		BE1D13DE2A64EC2A00BAF65F /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13DD2A64EC2A00BAF65F /* UIImageView+Extension.swift */; };
+		BE1D13E72A64EFE300BAF65F /* MenuModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13E62A64EFE300BAF65F /* MenuModelTest.swift */; };
+		BE1D13F12A64F26800BAF65F /* MenuViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13F02A64F26800BAF65F /* MenuViewControllerTest.swift */; };
+		BE1D13F82A64F34B00BAF65F /* AlamofireServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13F72A64F34B00BAF65F /* AlamofireServiceMock.swift */; };
+		BE1D13FA2A64F39600BAF65F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE1D13F92A64F39600BAF65F /* Alamofire */; };
+		BE1D13FC2A64F41400BAF65F /* MenuPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */; };
+		BE1D13FE2A64FF7A00BAF65F /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = BE1D13FD2A64FF7A00BAF65F /* Quick */; };
+		BE1D14002A64FF7A00BAF65F /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = BE1D13FF2A64FF7A00BAF65F /* Nimble */; };
+		BE1D14022A64FF8000BAF65F /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = BE1D14012A64FF8000BAF65F /* Quick */; };
+		BE1D14042A64FF8000BAF65F /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = BE1D14032A64FF8000BAF65F /* Nimble */; };
+		BE4784E42A53C90C00E051FD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784E32A53C90C00E051FD /* Menu.swift */; };
+		BE4784E72A53C94B00E051FD /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784E62A53C94B00E051FD /* MenuPresenter.swift */; };
 		BE4784E92A53C95700E051FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784E82A53C95700E051FD /* Constants.swift */; };
-		BE4784EB2A53CA8D00E051FD /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784EA2A53CA8D00E051FD /* MainModel.swift */; };
+		BE4784EB2A53CA8D00E051FD /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784EA2A53CA8D00E051FD /* MenuModel.swift */; };
 		BE4784EE2A53D34200E051FD /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784ED2A53D34200E051FD /* CharacterViewController.swift */; };
 		BE4784F02A53D35B00E051FD /* CharacterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784EF2A53D35B00E051FD /* CharacterPresenter.swift */; };
 		BE4784F22A53D36600E051FD /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4784F12A53D36600E051FD /* CharacterModel.swift */; };
 		BE4EB6B52A53A2610013970B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6B42A53A2610013970B /* AppDelegate.swift */; };
-		BE4EB6B92A53A2610013970B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6B82A53A2610013970B /* MainViewController.swift */; };
-		BE4EB6BC2A53A2610013970B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4EB6BA2A53A2610013970B /* Main.storyboard */; };
+		BE4EB6B92A53A2610013970B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6B82A53A2610013970B /* MenuViewController.swift */; };
+		BE4EB6BC2A53A2610013970B /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4EB6BA2A53A2610013970B /* Menu.storyboard */; };
 		BE4EB6BE2A53A2630013970B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4EB6BD2A53A2630013970B /* Assets.xcassets */; };
 		BE4EB6C12A53A2630013970B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4EB6BF2A53A2630013970B /* LaunchScreen.storyboard */; };
-		BE4EB6CC2A53A2630013970B /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6CB2A53A2630013970B /* RickAndMortyTests.swift */; };
-		BE4EB6D62A53A2630013970B /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6D52A53A2630013970B /* RickAndMortyUITests.swift */; };
-		BE4EB6D82A53A2630013970B /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6D72A53A2630013970B /* RickAndMortyUITestsLaunchTests.swift */; };
 		BE4EB6E72A53BBF40013970B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE4EB6E62A53BBF40013970B /* Alamofire */; };
 		BE4EB6EA2A53BE660013970B /* AlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6E92A53BE660013970B /* AlamofireService.swift */; };
 /* End PBXBuildFile section */
@@ -44,25 +56,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE4784E32A53C90C00E051FD /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		BE4784E62A53C94B00E051FD /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		BE1D13CA2A64D4CF00BAF65F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BE1D13CC2A64D7E000BAF65F /* CharacterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharacterViewController.storyboard; sourceTree = "<group>"; };
+		BE1D13D52A64D98100BAF65F /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
+		BE1D13D72A64DBDC00BAF65F /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		BE1D13DA2A64E71B00BAF65F /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		BE1D13DD2A64EC2A00BAF65F /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		BE1D13E62A64EFE300BAF65F /* MenuModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModelTest.swift; sourceTree = "<group>"; usesTabs = 1; };
+		BE1D13F02A64F26800BAF65F /* MenuViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewControllerTest.swift; sourceTree = "<group>"; };
+		BE1D13F72A64F34B00BAF65F /* AlamofireServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireServiceMock.swift; sourceTree = "<group>"; };
+		BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterMock.swift; sourceTree = "<group>"; };
+		BE4784E32A53C90C00E051FD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		BE4784E62A53C94B00E051FD /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
 		BE4784E82A53C95700E051FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		BE4784EA2A53CA8D00E051FD /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		BE4784EA2A53CA8D00E051FD /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		BE4784ED2A53D34200E051FD /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		BE4784EF2A53D35B00E051FD /* CharacterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPresenter.swift; sourceTree = "<group>"; };
 		BE4784F12A53D36600E051FD /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		BE4EB6B12A53A2610013970B /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4EB6B42A53A2610013970B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE4EB6B82A53A2610013970B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BE4EB6BB2A53A2610013970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE4EB6B82A53A2610013970B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BE4EB6BB2A53A2610013970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Menu.storyboard; sourceTree = "<group>"; };
 		BE4EB6BD2A53A2630013970B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE4EB6C02A53A2630013970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE4EB6C22A53A2630013970B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4EB6C72A53A2630013970B /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE4EB6CB2A53A2630013970B /* RickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTests.swift; sourceTree = "<group>"; };
 		BE4EB6D12A53A2630013970B /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE4EB6D52A53A2630013970B /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
-		BE4EB6D72A53A2630013970B /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE4EB6E92A53BE660013970B /* AlamofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1D14002A64FF7A00BAF65F /* Nimble in Frameworks */,
+				BE1D13FE2A64FF7A00BAF65F /* Quick in Frameworks */,
+				BE1D13FA2A64F39600BAF65F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,18 +108,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1D14022A64FF8000BAF65F /* Quick in Frameworks */,
+				BE1D14042A64FF8000BAF65F /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE4784E22A53C86E00E051FD /* Models */ = {
+		BE1D13CE2A64D88D00BAF65F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BE4784E32A53C90C00E051FD /* Main.swift */,
+				BE1D13D42A64D96700BAF65F /* Cells */,
+				BE1D13CC2A64D7E000BAF65F /* CharacterViewController.storyboard */,
+				BE4784ED2A53D34200E051FD /* CharacterViewController.swift */,
 			);
-			path = Models;
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE1D13CF2A64D8FA00BAF65F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE4EB6B82A53A2610013970B /* MenuViewController.swift */,
+				BE4EB6BA2A53A2610013970B /* Menu.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE1D13D02A64D90B00BAF65F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BE4784E62A53C94B00E051FD /* MenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE1D13D12A64D91C00BAF65F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE4784EA2A53CA8D00E051FD /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE1D13D22A64D92900BAF65F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BE4784EF2A53D35B00E051FD /* CharacterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE1D13D32A64D93500BAF65F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE4784F12A53D36600E051FD /* CharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE1D13D42A64D96700BAF65F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D13D52A64D98100BAF65F /* CharacterCell.xib */,
+				BE1D13D72A64DBDC00BAF65F /* CharacterCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BE1D13D92A64E6FF00BAF65F /* ViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D13DA2A64E71B00BAF65F /* ViewControllerProtocol.swift */,
+			);
+			path = ViewProtocol;
+			sourceTree = "<group>";
+		};
+		BE1D13DC2A64EC1700BAF65F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D13DD2A64EC2A00BAF65F /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE1D13E52A64EFAC00BAF65F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D13E62A64EFE300BAF65F /* MenuModelTest.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		BE1D13EA2A64F22400BAF65F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1D13EF2A64F25100BAF65F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D13F02A64F26800BAF65F /* MenuViewControllerTest.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		BE1D13F62A64F33900BAF65F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D13F72A64F34B00BAF65F /* AlamofireServiceMock.swift */,
+				BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		BE4784E22A53C86E00E051FD /* Pojos */ = {
+			isa = PBXGroup;
+			children = (
+				BE4784E32A53C90C00E051FD /* Menu.swift */,
+				BE1D13CA2A64D4CF00BAF65F /* Character.swift */,
+			);
+			path = Pojos;
 			sourceTree = "<group>";
 		};
 		BE4784E52A53C92D00E051FD /* Services */ = {
@@ -111,9 +244,9 @@
 		BE4784EC2A53D2EA00E051FD /* Character */ = {
 			isa = PBXGroup;
 			children = (
-				BE4784ED2A53D34200E051FD /* CharacterViewController.swift */,
-				BE4784EF2A53D35B00E051FD /* CharacterPresenter.swift */,
-				BE4784F12A53D36600E051FD /* CharacterModel.swift */,
+				BE1D13D32A64D93500BAF65F /* Model */,
+				BE1D13D22A64D92900BAF65F /* Presenter */,
+				BE1D13CE2A64D88D00BAF65F /* View */,
 			);
 			path = Character;
 			sourceTree = "<group>";
@@ -125,6 +258,7 @@
 				BE4EB6CA2A53A2630013970B /* RickAndMortyTests */,
 				BE4EB6D42A53A2630013970B /* RickAndMortyUITests */,
 				BE4EB6B22A53A2610013970B /* Products */,
+				BE1D13EA2A64F22400BAF65F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +277,7 @@
 			children = (
 				BE4784EC2A53D2EA00E051FD /* Character */,
 				BE4EB6E82A53BE530013970B /* Commons */,
-				BE4EB6E42A53A5A10013970B /* Main */,
+				BE4EB6E42A53A5A10013970B /* Menu */,
 				BE4EB6B42A53A2610013970B /* AppDelegate.swift */,
 				BE4EB6BD2A53A2630013970B /* Assets.xcassets */,
 				BE4EB6BF2A53A2630013970B /* LaunchScreen.storyboard */,
@@ -155,7 +289,8 @@
 		BE4EB6CA2A53A2630013970B /* RickAndMortyTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE4EB6CB2A53A2630013970B /* RickAndMortyTests.swift */,
+				BE1D13F62A64F33900BAF65F /* Mocks */,
+				BE1D13E52A64EFAC00BAF65F /* Menu */,
 			);
 			path = RickAndMortyTests;
 			sourceTree = "<group>";
@@ -163,28 +298,28 @@
 		BE4EB6D42A53A2630013970B /* RickAndMortyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BE4EB6D52A53A2630013970B /* RickAndMortyUITests.swift */,
-				BE4EB6D72A53A2630013970B /* RickAndMortyUITestsLaunchTests.swift */,
+				BE1D13EF2A64F25100BAF65F /* Menu */,
 			);
 			path = RickAndMortyUITests;
 			sourceTree = "<group>";
 		};
-		BE4EB6E42A53A5A10013970B /* Main */ = {
+		BE4EB6E42A53A5A10013970B /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				BE4EB6BA2A53A2610013970B /* Main.storyboard */,
-				BE4EB6B82A53A2610013970B /* MainViewController.swift */,
-				BE4784E62A53C94B00E051FD /* MainPresenter.swift */,
-				BE4784EA2A53CA8D00E051FD /* MainModel.swift */,
+				BE1D13D12A64D91C00BAF65F /* Model */,
+				BE1D13D02A64D90B00BAF65F /* Presenter */,
+				BE1D13CF2A64D8FA00BAF65F /* View */,
 			);
-			path = Main;
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		BE4EB6E82A53BE530013970B /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				BE1D13DC2A64EC1700BAF65F /* Extensions */,
+				BE1D13D92A64E6FF00BAF65F /* ViewProtocol */,
 				BE4784E52A53C92D00E051FD /* Services */,
-				BE4784E22A53C86E00E051FD /* Models */,
+				BE4784E22A53C86E00E051FD /* Pojos */,
 				BE4784E82A53C95700E051FD /* Constants.swift */,
 			);
 			path = Commons;
@@ -227,6 +362,11 @@
 				BE4EB6C92A53A2630013970B /* PBXTargetDependency */,
 			);
 			name = RickAndMortyTests;
+			packageProductDependencies = (
+				BE1D13F92A64F39600BAF65F /* Alamofire */,
+				BE1D13FD2A64FF7A00BAF65F /* Quick */,
+				BE1D13FF2A64FF7A00BAF65F /* Nimble */,
+			);
 			productName = RickAndMortyTests;
 			productReference = BE4EB6C72A53A2630013970B /* RickAndMortyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -245,6 +385,10 @@
 				BE4EB6D32A53A2630013970B /* PBXTargetDependency */,
 			);
 			name = RickAndMortyUITests;
+			packageProductDependencies = (
+				BE1D14012A64FF8000BAF65F /* Quick */,
+				BE1D14032A64FF8000BAF65F /* Nimble */,
+			);
 			productName = RickAndMortyUITests;
 			productReference = BE4EB6D12A53A2630013970B /* RickAndMortyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -264,10 +408,12 @@
 					};
 					BE4EB6C62A53A2630013970B = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 						TestTargetID = BE4EB6B02A53A2610013970B;
 					};
 					BE4EB6D02A53A2630013970B = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 						TestTargetID = BE4EB6B02A53A2610013970B;
 					};
 				};
@@ -283,6 +429,8 @@
 			mainGroup = BE4EB6A82A53A2610013970B;
 			packageReferences = (
 				BE4EB6E52A53BBF40013970B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BE1D13DF2A64EF7900BAF65F /* XCRemoteSwiftPackageReference "Quick" */,
+				BE1D13E22A64EF8B00BAF65F /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = BE4EB6B22A53A2610013970B /* Products */;
 			projectDirPath = "";
@@ -301,8 +449,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4EB6C12A53A2630013970B /* LaunchScreen.storyboard in Resources */,
+				BE1D13CD2A64D7E000BAF65F /* CharacterViewController.storyboard in Resources */,
+				BE1D13D62A64D98100BAF65F /* CharacterCell.xib in Resources */,
 				BE4EB6BE2A53A2630013970B /* Assets.xcassets in Resources */,
-				BE4EB6BC2A53A2610013970B /* Main.storyboard in Resources */,
+				BE4EB6BC2A53A2610013970B /* Menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +477,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4784E72A53C94B00E051FD /* MainPresenter.swift in Sources */,
+				BE1D13DB2A64E71B00BAF65F /* ViewControllerProtocol.swift in Sources */,
+				BE4784E72A53C94B00E051FD /* MenuPresenter.swift in Sources */,
+				BE1D13DE2A64EC2A00BAF65F /* UIImageView+Extension.swift in Sources */,
 				BE4784F22A53D36600E051FD /* CharacterModel.swift in Sources */,
-				BE4784E42A53C90C00E051FD /* Main.swift in Sources */,
-				BE4EB6B92A53A2610013970B /* MainViewController.swift in Sources */,
+				BE1D13CB2A64D4CF00BAF65F /* Character.swift in Sources */,
+				BE1D13D82A64DBDC00BAF65F /* CharacterCell.swift in Sources */,
+				BE4784E42A53C90C00E051FD /* Menu.swift in Sources */,
+				BE4EB6B92A53A2610013970B /* MenuViewController.swift in Sources */,
 				BE4784F02A53D35B00E051FD /* CharacterPresenter.swift in Sources */,
-				BE4784EB2A53CA8D00E051FD /* MainModel.swift in Sources */,
+				BE4784EB2A53CA8D00E051FD /* MenuModel.swift in Sources */,
 				BE4784EE2A53D34200E051FD /* CharacterViewController.swift in Sources */,
 				BE4EB6EA2A53BE660013970B /* AlamofireService.swift in Sources */,
 				BE4EB6B52A53A2610013970B /* AppDelegate.swift in Sources */,
@@ -344,7 +498,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4EB6CC2A53A2630013970B /* RickAndMortyTests.swift in Sources */,
+				BE1D13FC2A64F41400BAF65F /* MenuPresenterMock.swift in Sources */,
+				BE1D13F82A64F34B00BAF65F /* AlamofireServiceMock.swift in Sources */,
+				BE1D13E72A64EFE300BAF65F /* MenuModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4EB6D62A53A2630013970B /* RickAndMortyUITests.swift in Sources */,
-				BE4EB6D82A53A2630013970B /* RickAndMortyUITestsLaunchTests.swift in Sources */,
+				BE1D13F12A64F26800BAF65F /* MenuViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,12 +528,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE4EB6BA2A53A2610013970B /* Main.storyboard */ = {
+		BE4EB6BA2A53A2610013970B /* Menu.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BE4EB6BB2A53A2610013970B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Menu.storyboard;
 			sourceTree = "<group>";
 		};
 		BE4EB6BF2A53A2630013970B /* LaunchScreen.storyboard */ = {
@@ -517,7 +672,7 @@
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Menu;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -544,7 +699,7 @@
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Menu;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,6 +720,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -573,6 +729,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edpinzon.RickAndMortyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMorty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RickAndMorty";
@@ -584,6 +741,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -602,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -609,6 +768,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edpinzon.RickAndMortyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = RickAndMorty;
@@ -619,6 +779,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -674,6 +835,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BE1D13DF2A64EF7900BAF65F /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+		BE1D13E22A64EF8B00BAF65F /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = exactVersion;
+				version = 10.0.0;
+			};
+		};
 		BE4EB6E52A53BBF40013970B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -685,6 +862,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BE1D13F92A64F39600BAF65F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE4EB6E52A53BBF40013970B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BE1D13FD2A64FF7A00BAF65F /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE1D13DF2A64EF7900BAF65F /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		BE1D13FF2A64FF7A00BAF65F /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE1D13E22A64EF8B00BAF65F /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		BE1D14012A64FF8000BAF65F /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE1D13DF2A64EF7900BAF65F /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		BE1D14032A64FF8000BAF65F /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE1D13E22A64EF8B00BAF65F /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
 		BE4EB6E62A53BBF40013970B /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BE4EB6E52A53BBF40013970B /* XCRemoteSwiftPackageReference "Alamofire" */;

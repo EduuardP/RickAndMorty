@@ -7,7 +7,7 @@
 
 import Alamofire
 
-class AlamofireService {
+public class AlamofireService {
     
     func get<T: Decodable> (url: String, completion: @escaping (AFResult<T>)-> Void) {
         AF.request(url, method: .get)

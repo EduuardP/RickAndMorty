@@ -6,5 +6,19 @@
 //
 
 class Constanst {
-    static let mainUrl = "https://rickandmortyapi.com/api"
+    
+    enum Url {
+        static let menuUrl = "https://rickandmortyapi.com/api"
+    }
+    
+    enum View {
+        enum StoryBoards {
+            static let character = "CharacterViewController"
+        }
+        
+        enum Cells {
+            static let character = "CharacterCell"
+        }
+    }
+    
 }
