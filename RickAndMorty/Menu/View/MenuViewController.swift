@@ -30,11 +30,13 @@ class MenuViewController: UIViewController {
     }
     
     @IBAction func clickLocationsButton() {
-        print(self.result?.locations ?? String())
+        guard let locations = self.result?.locations else { return }
+        print(locations)
     }
     
     @IBAction func clickEpisodesButton() {
-        print(self.result?.episodes ?? String())
+        guard let episodes = self.result?.episodes else { return }
+        print(episodes)
     }
     
     private func loadModule(module: String, url: String) {

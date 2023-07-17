@@ -12,11 +12,14 @@ class MenuPresenterMock: MenuPresenterProtocol {
     
     var view: MenuViewProtocol?
     
+    var loadApiTimesCalled = 0
     func loadApi() {
+        loadApiTimesCalled += 1
     }
     
     var resultTimesCalled = 0
     func result(result: Menu) {
         resultTimesCalled += 1
+        self.view?.result(result: result)
     }
 }

@@ -14,7 +14,6 @@
 		BE1D13DB2A64E71B00BAF65F /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13DA2A64E71B00BAF65F /* ViewControllerProtocol.swift */; };
 		BE1D13DE2A64EC2A00BAF65F /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13DD2A64EC2A00BAF65F /* UIImageView+Extension.swift */; };
 		BE1D13E72A64EFE300BAF65F /* MenuModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13E62A64EFE300BAF65F /* MenuModelTest.swift */; };
-		BE1D13F12A64F26800BAF65F /* MenuViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13F02A64F26800BAF65F /* MenuViewControllerTest.swift */; };
 		BE1D13F82A64F34B00BAF65F /* AlamofireServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13F72A64F34B00BAF65F /* AlamofireServiceMock.swift */; };
 		BE1D13FA2A64F39600BAF65F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE1D13F92A64F39600BAF65F /* Alamofire */; };
 		BE1D13FC2A64F41400BAF65F /* MenuPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */; };
@@ -36,6 +35,11 @@
 		BE4EB6C12A53A2630013970B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4EB6BF2A53A2630013970B /* LaunchScreen.storyboard */; };
 		BE4EB6E72A53BBF40013970B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE4EB6E62A53BBF40013970B /* Alamofire */; };
 		BE4EB6EA2A53BE660013970B /* AlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4EB6E92A53BE660013970B /* AlamofireService.swift */; };
+		BEA902782A65050400B026E3 /* MenuPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */; };
+		BEA902832A6510E900B026E3 /* MenuViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9027E2A650DDE00B026E3 /* MenuViewControllerTest.swift */; };
+		BEA902862A6514E200B026E3 /* CharacterModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA902852A6514E200B026E3 /* CharacterModelTest.swift */; };
+		BEA902882A65152900B026E3 /* CharacterPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA902872A65152900B026E3 /* CharacterPresenterMock.swift */; };
+		BEA9028A2A65188500B026E3 /* CharacterViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA902892A65188500B026E3 /* CharacterViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +67,6 @@
 		BE1D13DA2A64E71B00BAF65F /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
 		BE1D13DD2A64EC2A00BAF65F /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		BE1D13E62A64EFE300BAF65F /* MenuModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModelTest.swift; sourceTree = "<group>"; usesTabs = 1; };
-		BE1D13F02A64F26800BAF65F /* MenuViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewControllerTest.swift; sourceTree = "<group>"; };
 		BE1D13F72A64F34B00BAF65F /* AlamofireServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireServiceMock.swift; sourceTree = "<group>"; };
 		BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterMock.swift; sourceTree = "<group>"; };
 		BE4784E32A53C90C00E051FD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -83,7 +86,12 @@
 		BE4EB6C72A53A2630013970B /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4EB6D12A53A2630013970B /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4EB6E92A53BE660013970B /* AlamofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
-		BEA902762A65046A00B026E3 /* RickAndMorty.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = RickAndMorty.xctestplan; sourceTree = "<group>"; };
+		BEA9027E2A650DDE00B026E3 /* MenuViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewControllerTest.swift; sourceTree = "<group>"; };
+		BEA902822A650F0800B026E3 /* RickAndMorty.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = RickAndMorty.xctestplan; path = ../RickAndMorty.xctestplan; sourceTree = "<group>"; };
+		BEA902842A65115A00B026E3 /* RickAndMortyTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = RickAndMortyTests.xctestplan; sourceTree = "<group>"; };
+		BEA902852A6514E200B026E3 /* CharacterModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModelTest.swift; sourceTree = "<group>"; };
+		BEA902872A65152900B026E3 /* CharacterPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPresenterMock.swift; sourceTree = "<group>"; };
+		BEA902892A65188500B026E3 /* CharacterViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +204,7 @@
 		BE1D13E52A64EFAC00BAF65F /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				BEA9027E2A650DDE00B026E3 /* MenuViewControllerTest.swift */,
 				BE1D13E62A64EFE300BAF65F /* MenuModelTest.swift */,
 			);
 			path = Menu;
@@ -211,7 +220,6 @@
 		BE1D13EF2A64F25100BAF65F /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				BE1D13F02A64F26800BAF65F /* MenuViewControllerTest.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			children = (
 				BE1D13F72A64F34B00BAF65F /* AlamofireServiceMock.swift */,
 				BE1D13FB2A64F41400BAF65F /* MenuPresenterMock.swift */,
+				BEA902872A65152900B026E3 /* CharacterPresenterMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -255,7 +264,8 @@
 		BE4EB6A82A53A2610013970B = {
 			isa = PBXGroup;
 			children = (
-				BEA902762A65046A00B026E3 /* RickAndMorty.xctestplan */,
+				BEA902842A65115A00B026E3 /* RickAndMortyTests.xctestplan */,
+				BEA902822A650F0800B026E3 /* RickAndMorty.xctestplan */,
 				BE4EB6B32A53A2610013970B /* RickAndMorty */,
 				BE4EB6CA2A53A2630013970B /* RickAndMortyTests */,
 				BE4EB6D42A53A2630013970B /* RickAndMortyUITests */,
@@ -291,6 +301,7 @@
 		BE4EB6CA2A53A2630013970B /* RickAndMortyTests */ = {
 			isa = PBXGroup;
 			children = (
+				BEA902812A650EA600B026E3 /* Characters */,
 				BE1D13F62A64F33900BAF65F /* Mocks */,
 				BE1D13E52A64EFAC00BAF65F /* Menu */,
 			);
@@ -325,6 +336,15 @@
 				BE4784E82A53C95700E051FD /* Constants.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		BEA902812A650EA600B026E3 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				BEA902852A6514E200B026E3 /* CharacterModelTest.swift */,
+				BEA902892A65188500B026E3 /* CharacterViewControllerTest.swift */,
+			);
+			path = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,9 +520,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA902882A65152900B026E3 /* CharacterPresenterMock.swift in Sources */,
+				BEA9028A2A65188500B026E3 /* CharacterViewControllerTest.swift in Sources */,
+				BEA902862A6514E200B026E3 /* CharacterModelTest.swift in Sources */,
 				BE1D13FC2A64F41400BAF65F /* MenuPresenterMock.swift in Sources */,
 				BE1D13F82A64F34B00BAF65F /* AlamofireServiceMock.swift in Sources */,
 				BE1D13E72A64EFE300BAF65F /* MenuModelTest.swift in Sources */,
+				BEA902832A6510E900B026E3 /* MenuViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1D13F12A64F26800BAF65F /* MenuViewControllerTest.swift in Sources */,
+				BEA902782A65050400B026E3 /* MenuPresenterMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

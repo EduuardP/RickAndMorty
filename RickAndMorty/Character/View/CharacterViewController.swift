@@ -40,6 +40,7 @@ class CharacterViewController: UIViewController {
     
     
     private func registerCell() {
+
         tableView.register(UINib(nibName: Constanst.View.Cells.character, bundle: nil), forCellReuseIdentifier: Constanst.View.Cells.character)
     }
     
