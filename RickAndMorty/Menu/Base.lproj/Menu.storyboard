@@ -26,7 +26,7 @@
                                 <rect key="frame" x="153.5" y="382.5" width="107.5" height="35"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Personajes"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Personajes" titleAlignment="center"/>
                                 <connections>
                                     <action selector="clickCharactersButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="xES-l3-4fu"/>
                                 </connections>
@@ -35,7 +35,7 @@
                                 <rect key="frame" x="152" y="437.5" width="110.5" height="35"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Locaciones"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Locaciones" titleAlignment="center"/>
                                 <connections>
                                     <action selector="clickLocationsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTc-iE-5zi"/>
                                 </connections>
@@ -44,7 +44,7 @@
                                 <rect key="frame" x="158.5" y="492.5" width="97.5" height="35"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Episodios"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Episodios" titleAlignment="center"/>
                                 <connections>
                                     <action selector="clickEpisodesButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jii-RL-a1B"/>
                                 </connections>
