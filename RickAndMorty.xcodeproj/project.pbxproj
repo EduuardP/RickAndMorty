@@ -83,6 +83,7 @@
 		BE4EB6C72A53A2630013970B /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4EB6D12A53A2630013970B /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4EB6E92A53BE660013970B /* AlamofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
+		BEA902762A65046A00B026E3 /* RickAndMorty.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = RickAndMorty.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +255,7 @@
 		BE4EB6A82A53A2610013970B = {
 			isa = PBXGroup;
 			children = (
+				BEA902762A65046A00B026E3 /* RickAndMorty.xctestplan */,
 				BE4EB6B32A53A2610013970B /* RickAndMorty */,
 				BE4EB6CA2A53A2630013970B /* RickAndMortyTests */,
 				BE4EB6D42A53A2630013970B /* RickAndMortyUITests */,
